@@ -1,0 +1,273 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 1px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(96,96,96);
+    margin-top: 0;
+    width: 280px;
+    font-size: 14px;
+}
+
+.video-description {
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    text-align: center;
+    background-color: rgb(227,65,64);
+    color: white;
+    width: 450px;
+    padding: 18px;
+}
+
+.shop:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/***********************************  EXERCISES *********************************** ** ***/
+
+
+.verdana-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.level {
+    color: grey;
+    margin-top: 4px;
+}
+
+p {
+    color: black;
+    font-weight: 300;
+    width: 230px;
+    font-size: 15px;
+}
+
+button {
+    background-color: green;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    padding: 8px 17px;
+}
+
+/* *********************************** *********************************/
+
+.doller {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.usd {
+    font-size: 17px;
+    color: rgb(54, 53, 53);
+}
+
+.increment {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: rgb(3, 75, 3);
+}
+
+.time {
+    margin-top: 6px;
+    color:rgb(54, 53, 53);
+}
+
+.loss {
+    color: rgb(207, 7, 7);
+}
+
+/* ********************************************************* */
+.text {
+    margin-bottom: 80px;
+    display: inline-block;
+}
+
+.yes,.no {
+    display: inline-block;
+    align-items: center;
+}
+
+/* ********************************************************** */
+
+.first-name, .last-name {
+    width: 125px;
+    height: 33px;
+    border: solid;
+    border-color: rgb(152, 148, 148);
+    border-width: 1px;
+    border-radius: 6px;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: rgb(85, 82, 82);
+    font-family: Helvetica, sans-serif;
+}
+
+.email-box, .sign-box {
+    width: 270px;
+    height: 33px;
+    display: block;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-radius: 6px;
+    border: solid;
+    border-color: rgb(152, 148, 148);
+    border-width: 1px;
+}
+
+.sign-box {
+    margin-top: 10px;
+    width: 290px;
+    height: 40px;
+}
+
+.google-page {
+   margin: 100px auto 100px auto;
+   width: 600px;
+   vertical-align: center;
+}
+
+.google-logo {
+    display: block;
+    background-color: white;
+    width: 370px;
+    margin: 15px 114px;
+}
+
+.google-search {
+    display: block;
+    border: solid;
+    border-style: none;
+    border-radius: 35px;
+    padding: 14px 0 14px 20px;
+    width: 584px;
+    -webkit-box-shadow: 0 0 5px 5px black;
+    -moz-box-shadow: 0 0 5px 5px black;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+    margin-bottom: 35px;
+}
+
+.google-search-btn, .btn-2 {
+    background-color: rgb(215, 215, 215);
+    color: black;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+.google-search-btn {
+    margin-left: 170px;
+    margin-right: 15px;
+}
+
+.google-search::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+/* ****************** Youtube scrolling videos******************** */
+
+.video-cover {
+    width: 350px;
+    display: inline-block;
+}
+
+.video-stat {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+}
+
+h1 {
+    width: 350px;
+}
+
+.youtube-preview {
+    margin: 20px;
+}
+
+.youtube-scroll {
+    margin-bottom: 150px;
+}
+
+
+/* *********************************Grid Box model********************* */
+
+.grid-box {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.grid-1, .grid-3{
+    background-color: aqua;
+    height: 100px;
+    width: 300px;
+}
+
+.grid-2, .grid-4 {
+    background-color: lightgrey;
+    width: 300px;
+}
+
+
+/******************************** Flex box model ***************************/
+
+.flex-box {
+    margin-bottom: 1000px;
+    height: 400px;
+    background-color: beige;
+    display: flex;
+    /* flex-direction: colomn;
+    justify-content: space-evenly;
+    align-items:  center;
+    flex-wrap: wrap; */
+}
+
+.item {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-right: 15px;
+}
+
+.item:nth-of-type(1) {
+    order: 2;
+}
+
+.item:nth-of-type(2) {
+    order: 3;
+}
+
+.item:nth-of-type(3) {
+    order: 1;
+}
+
+
+
+
+
+
+
